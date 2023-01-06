@@ -1,0 +1,144 @@
+*{
+          margin: 0;
+          padding: 0;
+          font-family: 'Fira Sans', sans-serif;
+
+}
+
+/* header style start */
+header{
+          background-repeat: none;
+          background-size: cover;
+
+}
+
+.primary{
+          position: relative;
+}
+
+.primary .img-section{
+          overflow: hidden;
+          padding-bottom: 10px;
+}
+
+.primary img{
+          width: 1200px;
+}
+
+.primary .first-section{
+          position: absolute;
+          bottom: 100px;
+          margin-left: 450px;
+          padding: 150px;
+}
+
+.first-section .first-button{
+          background-color: #F15B22;
+          color: white;
+          padding: 10px;
+          margin-top: 10px;
+          border-radius: 10px;
+}
+
+
+
+/* header style ends */
+
+/* main starts here */
+
+.middle{
+          display: flex;
+}
+
+.middle .info-tab{
+          margin-top: 250px;
+          margin-left: 180px;
+          margin-right: 40px;
+}
+
+.middle .info-tab p{
+          margin-bottom: 15px;
+}
+
+.middle .info-tab ul{
+          list-style-type: upper-roman;
+
+}
+
+.plans .plan-title{
+          text-align: center;
+          margin-bottom: 50px;
+}
+
+.plans .goals{
+          display: flex;
+          gap: 90px;
+          text-align: center;
+          margin-left: 100px;
+          margin-right: 100px;
+}
+
+
+/* main ends here */
+
+
+
+
+/* footer style start */
+footer{
+          background-color: black;
+}
+
+.description{
+          color: aliceblue;
+          width: 450px;
+          height: 300px;
+          display: flex;
+          padding-top: 50px;
+          padding-bottom: 20px;
+          margin-left: 30px;
+}
+
+.description .first-section .contact{
+          display: flex;
+          padding: 20px;
+          gap: 25px;
+}
+
+.description .first-section{
+          margin-top: 10px;
+}
+
+.description .first-section .additional{
+          padding-top: 20px;
+}
+
+.form{
+          margin-right: 15px;
+          margin-top: 40px;   
+          margin-left: 450px;       
+}
+
+.form .form-title{
+          margin-bottom: 10px;
+}
+
+.form input{
+          margin-bottom: 10px;
+          padding: 10px;
+          width: 250px;
+          border-radius: 10px;
+          background-color: black;
+          color: aliceblue;
+
+}
+
+.form .second-btn{
+          margin-top: 15px;
+          padding: 6px;
+          background-color: rgb(255, 255, 255);
+          color: rgb(255, 69, 1);
+}
+
+
+/* footer ends her */
