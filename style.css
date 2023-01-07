@@ -32,6 +32,12 @@ header{
           padding: 150px;
 }
 
+
+.primary .first-section>strong{
+          font-weight: bold;
+          font-size: 30px;
+}
+
 .first-section .first-button{
           background-color: #F15B22;
           color: white;
@@ -45,6 +51,34 @@ header{
 /* header style ends */
 
 /* main starts here */
+
+.banner{
+          height: 200px;
+          margin: 45px 45px 45px 45px;
+          background-image: url(watch.png);
+          background-size: cover;
+
+}
+
+.banner h1{
+          height: 200px;
+          background-image: linear-gradient(to right,
+           rgb(243, 98, 14),
+            rgba(0,0,0,0));
+
+}
+
+.banner .middle-btn{
+          background-color: aliceblue;
+          color: #F15B22;
+          padding: 8px;
+          border-radius: 5px;
+          margin-left: 10px;
+}
+
+.banner h1{
+          color: aliceblue;
+}
 
 .middle{
           display: flex;
